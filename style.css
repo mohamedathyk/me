@@ -1,0 +1,117 @@
+
+
+    .image-holder{
+        
+        text-align: center;
+    }
+    div{
+background-color: #4CAF50
+padding:10px;
+     }
+      div.first {
+       opacity: 0.1;
+    }
+     div.second {
+      opacity: o.3;
+     }
+    img{
+
+         width:100%; height: 300px;
+         border: 2px solid #4f22b6; 
+    }
+    body{
+        background-color:  rgb(64, 67, 73)
+    }
+
+    h1{
+        color: rgba(21, 247, 107, 0.986);
+        text-align: center;
+        font-size: 50;
+        font-family: cursive;  
+    }
+    p{
+        color: rgb(10, 133, 235);
+        font-size: 30;
+    }
+    ol{
+        font-size: 30;
+        color: rgba(231, 235, 3, 0.986);
+    }
+    h2{
+        color: rgba(253, 93, 0, 0.986);
+        text-align: center;
+        font-size: 50;
+        font-family: cursive;  
+    }
+    .example1{
+        width:"250px";
+        background-color:rgb(102, 71, 102) ; 
+        padding: 50px;
+        border:5px solid black;
+        margin:50px 40px; 
+    }
+    .example2{
+        width:"250px";
+        background-color:rgb(10, 44, 238) ; 
+        padding: 50px;
+        border:5px solid black;
+        margin:50px 40px; 
+    }
+    .example3{
+        width:"250px";
+        background-color:rgb(225, 0, 255) ; 
+        padding: 50px;
+        border:5px solid black;
+        margin:50px 40px; 
+    }
+    header{ 
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+nav{
+    background-color: darkblue;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+#intro{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-section-content h2{
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px
+    font-size 20px;
+    text-align: center;
+    margin:buttom50px;
+}
+#best-sellers,
+footer{
+    background-color: lightpink;
+    
+}
+header,
+nav,
+#intro,
+#main-section,
+#best-sellers
+footer{
+   
+    border: 1px solid black  
+}
+header,
+nav,
+#main-section{
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
